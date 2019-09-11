@@ -10,11 +10,11 @@
 == Acknowledgements
 This collaborative Protection Profile (cPP) was developed by the _my iTC name_ international Technical Community (iTC) with representatives from industry, Government agencies, Common Criteria Test Laboratories, and members of academia.
 
-== Preface
+== Preface     
 
 === Objectives of Document
 This document presents the Common Criteria (CC) collaborative Protection Profile Module (cPP Module) to express the security functional requirements (SFRs) and security assurance requirements (SARs) for _some environment_. The Evaluation activities that specify the actions the evaluator performs to determine if a product satisfies the SFRs captured within this cPP Module, are described in <<SD>>.
-
+   
 === Scope of Document
 The scope of the cPP Module within the development and evaluation process is described in the Common Criteria for Information Technology Security Evaluation. In particular, a cPP Module defines the IT security requirements of a generic type of TOE and specifies the functional security measures to be offered by that TOE to meet stated requirements [<<CC1>>, Section B.14].
 
