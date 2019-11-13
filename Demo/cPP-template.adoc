@@ -12,8 +12,22 @@ This collaborative Protection Profile (cPP) was developed by the _my iTC name_ i
 
 == Preface
 
+[ditaa]
+....
+    +--------+   +-------+    +-------+
+    |        |---+ ditaa +--->|       |
+    |  Text  |   +-------+    |diagram|
+    |Document|   |!magic!|    |       |
+    |     {d}|   |       |    |       |
+    +---+----+   +-------+    +-------+
+        :                         ^
+        |       Lots of work      |
+        +-------------------------+
+....
+
+
 === Objectives of Document
-This document presents the Common Criteria (CC) collaborative Protection Profile Module (cPP Module) to express the security functional requirements (SFRs) and security assurance requirements (SARs) for _some environment_. The Evaluation activities that specify the actions the evaluator performs to determine if a product satisfies the SFRs captured within this cPP Module, are described in <<SD>>.
+This document presents the Common Criteria (CC) collaborative Protection Profile Module (cPP Module) to express the security functional requirements (SFRs) and security assurance requirements (SARs) for _some environment_. The _Evaluation_ activities that specify the actions the evaluator performs to determine if a product satisfies the SFRs captured within this cPP Module, are described in Supporting Documents.
 
 === Scope of Document
 The scope of the cPP Module within the development and evaluation process is described in the Common Criteria for Information Technology Security Evaluation. In particular, a cPP Module defines the IT security requirements of a generic type of TOE and specifies the functional security measures to be offered by that TOE to meet stated requirements [<<CC1>>, Section B.14].
@@ -27,10 +41,10 @@ Although the cPP Module and SD may contain minor editorial errors, the cPP Modul
 image::CClogo.png[Common Criteria Logo]
 
 [bibliography]
-- [[[CC1]]]	Common Criteria for Information Technology Security Evaluation, Part 1: Introduction and General Model, CCMB-2017-04-001, Version 3.1 Revision 5, April 2017.
-- [[[CC2]]] Common Criteria for Information Technology Security Evaluation, Part 2: Security Functional Components, CCMB-2017-04-002, Version 3.1 Revision 5, April 2017.
-- [[[CC3]]]	Common Criteria for Information Technology Security Evaluation, Part 3: Security Assurance Components, CCMB-2017-04-003, Version 3.1 Revision 5, April 2017.
-- [[[CEM]]]	Common Methodology for Information Technology Security Evaluation, Evaluation Methodology, CCMB-2017-04-004, Version 3.1 Revision 5, April 2017.
+- [#CC1]#[CC1]	Common Criteria for Information Technology Security Evaluation, Part 1: Introduction and General Model, CCMB-2017-04-001, Version 3.1 Revision 5, April 2017.#
+- [#CC2]#[CC2] Common Criteria for Information Technology Security Evaluation, Part 2: Security Functional Components, CCMB-2017-04-002, Version 3.1 Revision 5, April 2017.#
+- [#CC3]#[CC3]	Common Criteria for Information Technology Security Evaluation, Part 3: Security Assurance Components, CCMB-2017-04-003, Version 3.1 Revision 5, April 2017.#
+- [#CEM]#[CEM]	Common Methodology for Information Technology Security Evaluation, Evaluation Methodology, CCMB-2017-04-004, Version 3.1 Revision 5, April 2017.#
 
 
 === Glossary
@@ -51,6 +65,9 @@ Attempt::
 |April 4, 2019
 |Preliminary draft
 
+|0.2
+|
+|
 
 |===
 
@@ -165,7 +182,7 @@ Extended SFRs are identified by having a label “EXT” at the end of the SFR n
 
 |===
 
-==== Consistency of Objectives
+=== Consistency of Objectives
 
 The objectives for the biometric system and its operational environment are consistent with the <<MDFPP>> based on the following rationale:
 
@@ -182,7 +199,7 @@ The objectives for the biometric system and its operational environment are cons
 
 |===
 
-==== Consistency of Requirements
+=== Consistency of Requirements
 
 == Selection-Based Requirements
 
